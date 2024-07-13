@@ -1,1 +1,2 @@
-![image](https://github.com/user-attachments/assets/9ed7db18-90a0-4eb2-aec1-9511d776cdc5)
+This is how framework structure looks 
+![image](https://github.com/user-attachments/assets/80ef4192-6fff-40be-92c9-f5daa5706765)
