@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-20T11:43:48 IST" name="Default suite" finished-at="2024-07-20T11:43:54 IST" duration-ms="6578">
+  <suite started-at="2024-07-20T12:02:10 IST" name="Default suite" finished-at="2024-07-20T12:02:16 IST" duration-ms="5907">
     <groups>
     </groups>
-    <test started-at="2024-07-20T11:43:48 IST" name="Default test" finished-at="2024-07-20T11:43:54 IST" duration-ms="6578">
+    <test started-at="2024-07-20T12:02:10 IST" name="Default test" finished-at="2024-07-20T12:02:16 IST" duration-ms="5907">
       <class name="com.weather.api.tests.WeatherApiTestcases">
-        <test-method signature="weatherApiTest(java.lang.String)[pri:1, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T11:43:48 IST" name="weatherApiTest" description="Weather api" data-provider="data" finished-at="2024-07-20T11:43:51 IST" duration-ms="2697" status="PASS">
+        <test-method signature="weatherApiTest(java.lang.String)[pri:1, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T12:02:11 IST" name="weatherApiTest" description="Weather api: get the Temp and humidity " data-provider="data" finished-at="2024-07-20T12:02:13 IST" duration-ms="2722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherApiTest -->
-        <test-method signature="weatherApiTest(java.lang.String)[pri:1, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T11:43:51 IST" name="weatherApiTest" description="Weather api" data-provider="data" finished-at="2024-07-20T11:43:53 IST" duration-ms="2151" status="PASS">
+        <test-method signature="weatherApiTest(java.lang.String)[pri:1, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T12:02:13 IST" name="weatherApiTest" description="Weather api: get the Temp and humidity " data-provider="data" finished-at="2024-07-20T12:02:15 IST" duration-ms="1252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherApiTest -->
-        <test-method signature="weatherApiTest(java.lang.String)[pri:1, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T11:43:53 IST" name="weatherApiTest" description="Weather api" data-provider="data" finished-at="2024-07-20T11:43:54 IST" duration-ms="1136" status="PASS">
+        <test-method signature="weatherApiTest(java.lang.String)[pri:1, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T12:02:15 IST" name="weatherApiTest" description="Weather api: get the Temp and humidity " data-provider="data" finished-at="2024-07-20T12:02:16 IST" duration-ms="1395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,10 +40,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherApiTest -->
-        <test-method signature="compareTemp()[pri:2, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T11:43:54 IST" name="compareTemp" description="compare" finished-at="2024-07-20T11:43:54 IST" duration-ms="36" status="PASS">
+        <test-method signature="maximumTemprature()[pri:2, instance:com.weather.api.tests.WeatherApiTestcases@5ae50ce6]" started-at="2024-07-20T12:02:16 IST" name="maximumTemprature" description="compare: maximun temprature" finished-at="2024-07-20T12:02:16 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- compareTemp -->
+        </test-method> <!-- maximumTemprature -->
       </class> <!-- com.weather.api.tests.WeatherApiTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

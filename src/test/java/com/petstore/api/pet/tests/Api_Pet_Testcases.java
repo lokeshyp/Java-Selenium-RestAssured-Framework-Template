@@ -28,10 +28,13 @@ public class Api_Pet_Testcases {
 		// send request
 		Response response = client.sendRequest(GetApiEndPoints.base_url, "POST", "/pet", obj, null);
 		Logger.info("Requested for Post");
+		System.out.println("Requested for Post");
 
 		// validate the body
 		client.validateStatusCode(response, 200);
 		Logger.info("Validated the status code");
+		System.out.println("Validated the status code");
+
 
 		// validate the response
 		obj.clear();
