@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.petstore.api.pet.tests.Api_Pet_Testcases">
+      <class name="com.weather.api.tests.WeatherApiTestcases">
         <methods>
-          <include name="createPetDetails"/>
+          <include name="weatherApiTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.petstore.api.pet.tests.Api_Pet_Testcases -->
+      </class> <!-- com.weather.api.tests.WeatherApiTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
