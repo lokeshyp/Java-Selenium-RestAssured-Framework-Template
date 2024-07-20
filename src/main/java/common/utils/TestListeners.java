@@ -1,5 +1,8 @@
 package common.utils;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -12,11 +15,12 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class TestListeners implements ITestListener {
 
-	private static ExtentReports extent = ExtentManager.createInstance("extent.html");
+	private static String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+	private static ExtentReports extent = ExtentManager.createInstance("extent_Report_"+timestamp+".html");
 
 	public void onTestStart(ITestResult result) {
 
-		ExtentTest extentTest = extent.createTest(result.getMethod().getDescription());
+        ExtentTest extentTest = ExtentManager.getExtent().createTest(result.getMethod().getDescription());
 		ExtentManager.setTest(extentTest);
 		ExtentManager.getTest().log(Status.INFO, "Starting test: " + result.getMethod().getDescription());
 

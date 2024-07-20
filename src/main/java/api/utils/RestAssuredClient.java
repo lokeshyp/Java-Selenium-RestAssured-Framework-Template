@@ -9,7 +9,8 @@ import io.restassured.specification.RequestSpecification;
 import static org.hamcrest.Matchers.equalTo;
 
 public class RestAssuredClient {
-
+	
+	
 	/**
 	 * @param method
 	 * @param url
@@ -18,9 +19,9 @@ public class RestAssuredClient {
 	 * @return
 	 * @author lokeshay 
 	 */
-    public Response sendRequest(String method, String endpoint, Object body, Map<String, String> headers) {
+    public Response sendRequest(String baseUri, String method, String endpoint, Object body, Map<String, String> headers) {
     	
-		RestAssured.baseURI = GetApiEndPoints.base_url;
+		RestAssured.baseURI = baseUri;
         RequestSpecification request = RestAssured.given().basePath(endpoint).contentType(ContentType.JSON);
 
         if (headers != null) {
